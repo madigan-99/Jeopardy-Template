@@ -107,13 +107,5 @@ function endGame(){
     else if(team4 == winner[0]){
     document.getElementById("endGame").innerHTML = "Congratulations to Team 4 for a great win!";
     }
-
-    
-
-    else{
-        document.getElementById("endGame").innerHTML = "You Fucked UP!!!";
-    }
-
-
 }
 
